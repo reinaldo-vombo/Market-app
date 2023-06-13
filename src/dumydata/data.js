@@ -1,4 +1,4 @@
-import { img1, img2, img3 } from '../assets';
+import { img1, img2, img3, img4, img5 } from '../assets';
 
 export const slideData = [
   {
@@ -45,14 +45,12 @@ export const product = [
   {
     id: 1,
     title: 'Headphones',
-    Image:
-      'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
+    Image: img5,
   },
   {
     id: 2,
     title: 'Nike howe',
-    Image:
-      'https://images.unsplash.com/photo-1615615228002-890bb61cac6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
+    Image: img4,
   },
   {
     id: 3,

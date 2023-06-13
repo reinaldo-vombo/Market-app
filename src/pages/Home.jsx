@@ -1,13 +1,23 @@
-import { Carosel, Category, Footer, Navbar, Products } from '../components';
+import {
+  Ads,
+  Carosel,
+  Category,
+  Footer,
+  Navbar,
+  Products,
+} from '../components';
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <Carosel />
-      <Category />
-      <Products />
-      <Footer />
+      <div className='space-y-6'>
+        <Carosel />
+        <Category />
+        <Products />
+        <Ads />
+        <Footer />
+      </div>
     </>
   );
 }

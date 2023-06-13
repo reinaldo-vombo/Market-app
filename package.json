@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
     "flowbite": "^1.6.5",
     "flowbite-react": "^0.4.7",
     "lucide-react": "^0.241.0",
