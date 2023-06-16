@@ -24,21 +24,30 @@ export const slideData = [
   },
 ];
 
-export const categories = [
+export const category = [
   {
     id: 1,
-    title: 'SHIRT STYLE',
+    title: 'ACESSORIOS',
     Image: img1,
+    categories: 'acessorios',
   },
   {
     id: 2,
-    title: 'LOUNGEWEAR LOVE',
+    title: 'JOGOS',
     Image: img2,
+    categories: 'jogos',
   },
   {
-    id: 2,
-    title: 'LIGHT JACKETS',
+    id: 3,
+    title: 'ELETRONICOS',
     Image: img3,
+    categories: 'eletronicos',
+  },
+  {
+    id: 4,
+    title: 'Vestuario',
+    Image: img3,
+    categories: 'vestuarios',
   },
 ];
 export const product = [

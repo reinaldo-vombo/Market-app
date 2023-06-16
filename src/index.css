@@ -10,6 +10,18 @@
 .card-show:hover .show{
    transform: translateY(0px);
 }
+ .redx a{ 
+  color: white;
+}
+.bg-white .redx a{ 
+  color: black;
+}
+ .redx button{ 
+  color: white;
+}
+.bg-white .redx button{ 
+  color: black;
+}
 
 /*###########form animation#########################*/
 .containerr {

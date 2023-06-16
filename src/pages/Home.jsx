@@ -9,7 +9,7 @@ import {
 
 export default function Home() {
   return (
-    <>
+    <div className='relative'>
       <Navbar />
       <div className='space-y-6'>
         <Carosel />
@@ -18,6 +18,6 @@ export default function Home() {
         <Ads />
         <Footer />
       </div>
-    </>
+    </div>
   );
 }
